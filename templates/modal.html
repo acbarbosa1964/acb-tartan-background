@@ -1,0 +1,39 @@
+<div class="acb_tartan modal">
+	<div class="modal-header">
+		<h1 class="dialog-title">Tartans from around the world</h1>
+		<button class="dialog-button btn primary close-button" data-button-id="ok">X</button>
+	</div>
+	<div class="modal-body">
+		<div>
+			<span class="grid-left">Association</span>
+			<select class="theme-box" data-bind="value: theme, click: onPreview">
+			</select>
+		</div>
+
+		<div>
+			<span class="grid-left">Origin</span>
+			<input class="origin" data-bind="value: origin, click: select" readonly="readonly" />
+		</div>
+		<div>
+			<span class="grid-left">Country</span>
+			<input class="country" data-bind="value: country, click: select" readonly="readonly" />
+		</div>
+		<div>
+			<span class="grid-left"></span>
+			<input class="url" data-bind="value: url, click: select" readonly="readonly" />
+		</div>
+		<div class="preview-box">
+			<img class="placeholder-preview" src="" />
+
+			<div class="info"><span class="association" data-bind="text: association, click: select"></span></div>
+		</div>
+
+	</div>
+	<div class="modal-footer">
+		<button class="dialog-button btn btn-insert" data-bind="click: onUrlInsert">Insert Background Image at Caret Position</button>
+		<!-- button class="dialog-button btn btn-update" data-bind="click: onPreview">Update Preview</button -->
+	</div>
+	<p class="text-center">
+		All tartans images from <a href="https://en.wikipedia.org/wiki/List_of_tartans">Wikipedia</a>
+	</p>
+</div>
