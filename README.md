@@ -8,7 +8,7 @@ Pick a tartan image to use as a background in your Web Pages.
 
 >Tartan is made with alternating bands of coloured (pre-dyed) threads woven as both warp and weft at right angles to each other. The weft is woven in a simple twill, two over — two under the warp, advancing one thread at each pass. This forms visible diagonal lines where different colours cross, which give the appearance of new colours blended from the original ones. The resulting blocks of colour repeat vertically and horizontally in a distinctive pattern of squares and lines known as a sett.
 
-![Screenshot](https://github.com/acbarbosa1964/acb-tartan-background/raw/master/images/example.gif)
+![Screenshot](https://github.com/acbarbosa1964/acb-sample-gifs/blob/master/images/acb-tartan-background-example.gif?raw=true)
 
 ## How to Install
 ---
