@@ -1,14 +1,8 @@
-// This is example of a client for extenstion online tracking service
-// Part of Brackets Extension Rating extension by Alex Bardanov
-// https://github.com/dnbard/brackets-extension-rating
-
-// use require('./onlineTrackingClient').init() to activate tracking
-
 define(function(require, exports){
     var trackingServiceUrl = 'http://online-dnbard.rhcloud.com/',
-        // http://brackets-online.herokuapp.com/ is an address of default tracking service
+        // http://online-dnbard.rhcloud.com/ is an address of default tracking service
         // Change it if you use self-hosting instance of online tracking service
-        appToken = '5620f394e59615005b000007',
+        appToken = "5620f394e59615005b000007",
         // read https://github.com/dnbard/brackets-extension-rating/wiki/Online-and-max-users-counters-in-this-extension
         // to learn on how to obtain an application token for your extension
         mins60 = 60 * 60 * 1000,
