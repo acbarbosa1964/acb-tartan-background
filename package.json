@@ -3,7 +3,7 @@
     "title": "ACB Tartan Background Image Picker",
     "description": "Pick an image (pattern) to use as background. - Generates a CSS background: url(data:image/ ... ) code block at caret position.",
     "homepage": "https://github.com/acbarbosa1964/acb-tartan-background",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Antonio Carlos Barbosa <acbarbosa@gmail.com> (http://www.goodlearn.org)",
     "license": "MIT",
     "engines": {
